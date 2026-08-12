@@ -8,3 +8,6 @@ e = None # none type variable
    cant start with a digit 
    cannot conation @
    no white spaces"""
+
+a, b = map(int, input().split())
+print(a+b)
