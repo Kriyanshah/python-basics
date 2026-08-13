@@ -18,3 +18,21 @@ l1.insert(3, 9090) # inserts 9090 at index 3
 l1.pop(2) # removes the value at index 2 and it will return value at index 2 if you use it in print()
 l1.remove(45) # removes 45 from the list
 print(l1)
+
+fruits =[]
+f1 = input("enter the fruit :")
+fruits.append(f1)
+f2 = input("enter the fruit :")
+fruits.append(f2)
+f3 = input("enter the fruit :")
+fruits.append(f3)
+f4 = input("enter the fruit :")
+fruits.append(f4)
+f5 = input("enter the fruit :")
+fruits.append(f5)
+f6 = input("enter the fruit :")
+fruits.append(f6)
+f7 = input("enter the fruit :")
+fruits.append(f7)
+
+print(fruits)
