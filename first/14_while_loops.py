@@ -11,7 +11,8 @@ while(a<101): # while loop print kriyan 100 times
 
 # lists using loops 
 
-l = [1, "kriyan", 45, 3.14, "hello", 100]
+l = [1, "kriyan", 45, 3.14, "hello", 100, 56]
+
 
 b = 0
 while(b<len(l)): # while loop to print all the elements of list l
