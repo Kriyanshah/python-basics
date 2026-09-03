@@ -4,7 +4,7 @@
 n = int(input("Enter your number: "))
 
 for i in range(1,11):
-    print(f" {n} x {i} = { n * i }")
+   print(F"{n}x{i} ={n*i} ")
 
 # Q.2 in the given list greet only the person whose name start with k
         # list = [kriyan, kavy, taksh, prakshin, reet]
@@ -35,13 +35,49 @@ while(i<=n):
 print(fact)
 
 # Q.5 write a program to print following star pattern
-"""  *  
+"""  *
     ***
    ***** for n = 3 """
 
 
-n = int(input("enter the nunmber: "))
-for i in range(1, n+1):
+n = int(input("Enter your number : "))
+i = 1
+while(i<=n):
     print(" "*(n-i), end="")
     print("*"*(2*i-1), end="")
-    print(" ")
+    print("")
+    i+=1
+
+#Q.6 write a program to print following star pattern
+"""    *
+       **
+       ***  """
+
+n =  int(input("enter your number : "))
+i = 1
+while(i<=n):
+    print("*"*i)
+    i+=1
+
+# Q.7 print the following star pattern
+"""    ***
+       * *
+       ***  """
+    
+n = int(input("enter your number : "))
+i= 1
+while(i<=n):
+    if(i==1 or i==n):
+        print("*"*n)
+    else:
+        print("*", end="")
+        print(" "*(n-2), end="")
+        print("*")
+        
+    i+=1
+
+# Q.8 write multiplication table of n using for loops in reversed order
+
+n = int(input("enter your number: "))
+for i in range(1, 11):
+    print(f"{n} x {11-i} = {n * (11-i)}")
